@@ -1,0 +1,51 @@
+description: "A new Flutter application."
+name: "flutterapp"
+publish_to: "none"
+version: "1.0.0+1"
+dependencies: 
+  cupertino_icons: "^0.1.3"
+  path_drawing: "^0.4.1"
+  flutter: 
+    sdk: "flutter"
+dev_dependencies: 
+  flutter_test: 
+    sdk: "flutter"
+environment: 
+  sdk: ">=2.7.0 <3.0.0"
+flutter: 
+  assets: 
+    - "assets/images/"
+  fonts: 
+    - 
+      family: "Mali"
+      fonts: 
+        - 
+          asset: "fonts/Mali-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Lora"
+      fonts: 
+        - 
+          asset: "fonts/Lora-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/Lora-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Baskervville"
+      fonts: 
+        - 
+          asset: "fonts/Baskervville-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Esteban"
+      fonts: 
+        - 
+          asset: "fonts/Esteban-regular.ttf"
+          style: "normal"
+          weight: 400
+  uses-material-design: true
